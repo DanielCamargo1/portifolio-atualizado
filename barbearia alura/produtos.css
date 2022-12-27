@@ -1,0 +1,125 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #cccccc;
+    padding: 30px 0;
+}
+
+main{
+    text-align: center;
+}
+
+nav {
+    position:absolute;
+    top:90px;
+    right: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding-left: 6px;
+    margin: 0 0 0 15px ;
+
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1{
+    text-align: center;
+    padding:30px 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+#agendamento{
+    border:2px solid black;
+    padding: 5px;
+    border-radius:20px;
+    background-color: #1f1b1b;
+    color:#cccccc
+}
+
+.produtos-items:hover{
+    border: 3.2px solid rgb(173, 121, 121);
+    color : rgb(173, 121, 121);
+}
+
+
+.produtos-items{    
+    border:3px solid black;
+    width: 400px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+
+.especificacao{
+    font-size: 40px;
+    color: #1f1b1b;
+}
+
+.descricao{
+    font-size:20px ;
+}
+
+.preco{
+    font-size: 30px;
+    color: #1f1b1b;
+}
+
+.barbearia-footer{
+    color:white;
+}
+
+.barbearia-footer{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width:350px;
+}
+
+footer p{
+    color:#ffffff;
+    text-align: center;
+    padding:0px 0px 150px 0px;
+}
+footer{ 
+    margin-top: 20px;
+    padding: 90px 0 0 0;
+    background-color:#1f1b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+/*@media screen and ()*/

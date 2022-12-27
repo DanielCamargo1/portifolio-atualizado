@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#252525;
+}
+
+h1{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.exib_calc{
+    background-color: aliceblue;
+    margin: 20px 30px;
+    width: 248px;
+    height: 50px;
+
+}
+
+.calculadora-body{
+    background-color: #333131;
+    width: 300px;
+    padding: 3px;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.836);
+}
+
+.buttons{
+    margin-left:30px;
+}
+
+.buttons_item{
+    width: 60px;
+    height:60px;
+    font-size: 30px;
+}
+
+#mais, #multipllicacao, #menos, #multiplicacao, #divisao{
+    background-color: rgb(71, 168, 71) ;
+    color: rgb(15, 49, 15);
+}
+
+#c, #back, #porcento{
+    background-color: rgb(58, 104, 202);
+    color: rgb(1, 1, 102);
+}
+
+.especial{
+    width: 124px;
+    height:60px;
+    font-size: 30px;
+    background-color: rgb(211, 147, 29);
+    color:rgb(94, 61, 0);
+    margin-top: 4px;
+}
+
+.buttons_limp, .buttons_back{
+    width: 60px;
+    height:60px;
+    font-size: 30px;
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+}

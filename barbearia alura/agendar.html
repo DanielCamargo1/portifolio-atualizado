@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - Agende o seu horário</title>
+    <link rel="stylesheet" href="agendamento.css">
+</head>
+<body>
+    <header>
+        <div class="box">
+            <img src="logo-removebg-preview.png" alt="logotipo barbearia Alura">
+            <nav>
+                <ol class="nav" >
+                    <a href="index.html">
+                        <li class="nav-items">Home</li>
+                    </a>
+                    <a href="produtos.html">
+                        <li class="nav-items">produtos</li>
+                    </a>
+                    <a href="agendar.html"> 
+                        <li class="nav-items" id="agendamento">Agendar horário</li>
+                    </a>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Agendamento Online</h1>
+        <div class="sumario">
+            <section>
+                <h2 class="titulo-horarios">Horários:</h2>
+                <div class="div-horario">
+                    <div id="nove" onclick="selecionarnove()" class="horarios">
+                        <h3 id="nove-item" class="horarios-item "></h3>
+                    </div>
+                    <div id="dez" onclick="selecionardez()" class="horarios">
+                        <h3 id="dez-item"  class="horarios-item"></h3>
+                    </div>
+                    <div id="onze" onclick="selecionaronze()" class="horarios">
+                            <h3 id="onze-item" class="horarios-item"></h3>
+                    </div>
+                    <div id="doze" onclick="selecionardoze()" class="horarios">
+                        <h3 id="doze-item"  class="horarios-item"></h3>
+                    </div>
+                    <div id="treze-div" onclick="selecionartreze()" class="horarios">
+                        <h3 id="treze" class="horarios-item"></h3>
+                    </div>
+                    <div id="quatorze-div" onclick="selecionarquatorze()" class="horarios">
+                        <h3 id="quatorze"  class="horarios-item"></h3>
+                    </div>
+                    <div id="quinze-div" onclick="selecionarquinze()" class="horarios">
+                        <h3 id="quinze"  class="horarios-item"></h3>
+                    </div>
+                    <div id="dezeseis-div" onclick="selecionardezeseis()" class="horarios">
+                        <h3 id="dezeseis" class="horarios-item"></h3>
+                    </div>
+                    <div id="dezesete-div" onclick="selecionardezesete()" class="horarios">
+                        <h3 id="dezesete" class="horarios-item"></h3>
+                    </div>
+                    <div id="dezoito-div" onclick="selecionardezoito()" class="horarios">
+                        <h3 id="dezoito" class="horarios-item"></h3>
+                    </div>
+            
+                </div>
+                <div class="nome">
+                    <h4  class="digite-seu-nome">Digite o seu nome:</h4>
+                    <div class="inputs">
+                        <input  type="text" class="nomeususario" placeholder="Digite seu nome">
+                        <input class="button" id="btn" onclick="agendar()" type="button" value="agendar">
+                    </div>
+                    <p class="paragrafoagradecendo"></p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <img class="barbearia-footer" src="branco.png " alt="logo barbearia">
+        <p class="p-footer">Barbearia Alura - Conforto e Qualidade</p>
+    </footer>
+
+    
+    <script src="agenda.js"></script>
+    
+</body>
+</html>
